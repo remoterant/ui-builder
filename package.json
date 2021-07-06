@@ -25,13 +25,16 @@
     "gulp-postcss": "^9.0.0",
     "gulp-posthtml": "^3.0.5",
     "handlebars-layouts": "^3.1.4",
-    "postcss": "^8.2.9",
+    "postcss": "^8.3.5",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.1",
     "postcss-mixins": "^7.0.3",
     "postcss-preset-env": "^6.7.0",
     "posthtml-inline-assets": "^3.1.0",
     "posthtml-minify-classnames": "^0.2.3",
-    "tailwindcss": "^2.1.2"
+    "tailwindcss": "^2.2.4"
+  },
+  "dependencies": {
+    "spacersjs": "^1.0.2"
   }
 }
