@@ -1,0 +1,37 @@
+{
+  "name": "wicked-html-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "build:prod": "gulp build-prod",
+    "clean": "gulp clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "browser-sync": "^2.26.14",
+    "cssnano": "^4.1.10",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-beautify": "^3.0.0",
+    "gulp-hb": "^8.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-posthtml": "^3.0.5",
+    "handlebars-layouts": "^3.1.4",
+    "postcss": "^8.2.9",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.1",
+    "postcss-mixins": "^7.0.3",
+    "postcss-preset-env": "^6.7.0",
+    "posthtml-inline-assets": "^3.1.0",
+    "posthtml-minify-classnames": "^0.2.3",
+    "tailwindcss": "^2.1.2"
+  }
+}

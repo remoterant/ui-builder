@@ -1,0 +1,115 @@
+{{#extend "default" }}{{#content "body"}}
+
+<section class="text-gray-700">
+    <div class="container px-5 mx-auto lg:py-5 xl:px-0">
+        <!--- The header is made with AlpineJS -->
+        {{>navigation}}
+        <!--- End of header. -->
+        <div class="flex-1 mx-auto ">
+            <div class="grid gap-8 grid-cols-dense">
+
+                <div class="lg:col-start-1 col-span-full lg:col-span-5">
+                    <div
+                        class="relative flex flex-wrap h-full px-6 bg-white shadow rounded-xl sm:py-10 lg:px-10">
+                        <div class="w-full lg:w-1/3">
+                            <img alt="gallery" class="inset-0 block object-cover object-center w-full h-full rounded-xl"
+                                src="https://images.unsplash.com/photo-1526038335545-4b96864eaee7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80">
+                        </div>
+                        <div class="w-full p-2 py-4 text-left lg:p-6 lg:w-2/3">
+                            <h1 class="mt-auto mb-2 text-2xl font-black text-black">
+                                Rendering Spectrum
+                            </h1>
+                            <p class="text-sm leading-relaxed text-gray-400">
+                                Nov 27, 2020, 6:55pm EST
+                            </p>
+                            <p class="mt-4 text-base leading-relaxed ">
+                                Client rendering is the most flexible, but comes with all these serious downsides like
+                                worse performance, worse
+                                reliability, more strain on devices, bad SEO, etc. Static pre-rendering is the most
+                                robust, speedy, and secure, but is
+                                the most limited. Edge functions on top of static is starting to open doors, but
+                                server-rendering is the classic mix of
+                                flexibility and speed that has dominated the web for good reason.
+                            </p>
+                            <p class="mt-4 text-base leading-relaxed ">
+                                Client rendering also opens the door for that “SPA” (Single Page App) feel. I still like
+                                that, personally. I like the
+                                no-page-refresh feel. It’s makes a site feel snappy and opens the door for page
+                                transitions. Gatsby is famous for
+                                popularizing hydration, where you get the pre-rendered static bonus, but then the
+                                upgrade into SPA as the JavaScript
+                                downloads.
+                            </p>
+                            <p class="mt-4 text-base leading-relaxed ">
+                                I’d love to see the web get to the point where we get all that “good feel” bonus of an
+                                SPA without actually having to
+                                build an SPA. It’s notable when frameworks provide SPA feels without having to manage
+                                much of that yourself, but still,
+                                something is managing it and that something is a bunch of JavaScript.
+                            </p>
+
+                            <div class="mt-16 border-t ">
+                                <a
+                                    class="inline-flex items-center mt-4 focus:ring-4 focus:ring-black focus:ring-opacity-50 focus:outline-none">
+                                    <img alt="blog" src="https://uifaces.co/our-content/donated/_lKShg6s.jpg"
+                                        class="flex-shrink-0 object-cover object-center w-12 h-12 rounded-full">
+                                    <span class="flex flex-col flex-grow pl-4">
+                                        <span class="font-medium text-gray-900 title-font ">Jean Paul
+                                            Sizou</span>
+                                        <span class="text-sm text-gray-500 ">UI Designer /
+                                            Front-End Dev
+                                            Wannabe</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden lg:col-end-7 col-span-full lg:col-span-1 lg:block">
+                    <div
+                        class="flex flex-wrap h-full px-6 bg-white shadow rounded-xl sm:py-10 lg:px-10 ">
+                        <div class="z-10 w-full mt-6 text-left">
+                            <h1 class="mt-auto mb-2 text-2xl font-black text-black">
+                                Popular Posts</h1>
+                            <h2
+                                class="mt-6 mb-2 text-lg font-black text-black ">
+                                A great subheading
+                            </h2>
+                            <p class="mt-4 text-sm leading-relaxed text-gray-400">
+                                Find colors and typography combinations ready to copy paste in one click.
+                            </p>
+                            <hr class="my-4 border ">
+                            <h2
+                                class="mt-6 mb-2 text-lg font-black text-black ">
+                                A great subheading
+                            </h2>
+                            <p class="mt-4 text-sm leading-relaxed text-gray-400">
+                                Find colors and typography combinations ready to copy paste in one click.
+                            </p>
+                            <hr class="my-4 border ">
+                            <h2
+                                class="mt-6 mb-2 text-lg font-black text-black ">
+                                A great subheading
+                            </h2>
+                            <p class="mt-4 text-sm leading-relaxed text-gray-400">
+                                Find colors and typography combinations ready to copy paste in one click.
+                            </p>
+                            <hr class="my-4 border ">
+                            <h2
+                                class="mt-6 mb-2 text-lg font-black text-black ">
+                                A great subheading
+                            </h2>
+                            <p class="mt-4 text-sm leading-relaxed text-gray-400">
+                                Find colors and typography combinations ready to copy paste in one click.
+                            </p>
+                            <hr class="my-4 border ">
+                        </div>
+                    </div>
+                </div>
+                {{>big-footer}}
+            </div>
+        </div>
+    </div>
+
+</section>
+{{/content}}{{/extend}}
